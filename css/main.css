@@ -1146,11 +1146,13 @@ pre code {
   }
 }
 .header {
-  background: var(--content-bg-color);
+  background: rgba(255,255,255,0.8);
+  opacity: 0.8;
 }
 .header-inner {
   margin: 0 auto;
   width: 700px;
+  opacity: 0.8;
 }
 @media (min-width: 1200px) {
   .header-inner {
@@ -1574,9 +1576,10 @@ pre code {
   font-size: 0.875em;
 }
 .footer {
-  color: #999;
+  color: rgba(255,255,255,0.8);
   font-size: 0.875em;
   padding: 20px 0;
+  background-color: rgba(255,255,255,0.8);
 }
 .footer.footer-fixed {
   bottom: 0;
@@ -2728,7 +2731,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #87fa58;
+  background: #787fff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2769,9 +2772,16 @@ body {
 .posts-expand .post-title-link {
   color: #222;
 }
+.pagination {
+  border-radius: 30px 80px 30px 80px;
+  box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
 .post-block {
-  background: #fff;
-  border-radius: initial;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
-  padding: 40px;
+  opacity: 0.8;
+  background-color: #fff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 20px;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
 }
