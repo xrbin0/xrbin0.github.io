@@ -2532,7 +2532,7 @@ ul.breadcrumb li:last-child {
   }
 }
 .site-brand-container {
-  background: rgba(255,255,255,0);
+  background: #222;
 }
 @media (max-width: 991px) {
   .site-nav-on .site-brand-container {
@@ -2558,11 +2558,11 @@ ul.breadcrumb li:last-child {
 }
 .site-nav-toggle .toggle,
 .site-nav-right .toggle {
-  color: #fff;
+  color: rgba(255,255,255,0);
 }
 .site-nav-toggle .toggle .toggle-line,
 .site-nav-right .toggle .toggle-line {
-  background: #fff;
+  background: rgba(255,255,255,0);
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-nav {
