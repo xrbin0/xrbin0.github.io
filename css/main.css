@@ -2716,7 +2716,6 @@ ul.breadcrumb li:last-child {
   }
 }
 .sub-menu {
-  background-color: rgba(255,255,255,0);
   border-bottom: 1px solid #ddd;
 }
 .post-block:first-of-type {
@@ -2736,13 +2735,6 @@ body {
 }
 .sidebar {
   transition-duration: 0.4s;
-}
-.posts-expand .post-title-link {
-  color: #222;
-}
-.sidebar-inner {
-  background-color: rgba(255,255,255,0);
-  padding: 0px 40px 40px 40px;
 }
 .main-inner {
   background-color: rgba(255,255,255,0);
