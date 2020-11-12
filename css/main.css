@@ -2625,6 +2625,7 @@ ul.breadcrumb li:last-child {
   border-bottom-color: #fc6423;
 }
 .sidebar {
+  background: rgba(255,255,255,0);
   margin-top: 12px;
   position: -webkit-sticky;
   position: sticky;
@@ -2641,7 +2642,6 @@ ul.breadcrumb li:last-child {
   display: none;
 }
 .sidebar-inner {
-  background: rgba(255,255,255,0);
   border-radius: initial;
   box-shadow: initial;
   box-sizing: border-box;
