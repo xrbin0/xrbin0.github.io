@@ -2516,11 +2516,6 @@ ul.breadcrumb li:last-child {
     width: 100%;
   }
 }
-.footer {
-  background: rgba(255,255,255,0.7);
-  color: var(--text-color);
-  padding: 10px 0;
-}
 .footer-inner {
   padding-left: 252px;
 }
