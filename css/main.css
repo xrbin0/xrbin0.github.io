@@ -1152,7 +1152,7 @@ pre code {
 .header-inner {
   margin: 0 auto;
   width: calc(100% - 20px);
-  opacity: 0.8;
+  opacity: 0;
 }
 @media (min-width: 1200px) {
   .header-inner {
