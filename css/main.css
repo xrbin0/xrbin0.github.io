@@ -2586,7 +2586,7 @@ ul.breadcrumb li:last-child {
   }
 }
 .menu .menu-item .badge {
-  background: #ccc;
+  background: rgba(255,255,255,0);
   border-radius: 10px;
   color: var(--content-bg-color);
   float: right;
