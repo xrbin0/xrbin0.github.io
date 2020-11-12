@@ -1606,7 +1606,7 @@ pre code {
   }
 }
 .use-motion .footer {
-  opacity: 1;
+  opacity: 0;
 }
 .languages {
   display: inline-block;
@@ -2516,6 +2516,11 @@ ul.breadcrumb li:last-child {
     width: 100%;
   }
 }
+.footer {
+  background: var(--content-bg-color);
+  color: var(--text-color);
+  padding: 10px 0;
+}
 .footer-inner {
   padding-left: 252px;
 }
@@ -2730,7 +2735,6 @@ body {
 }
 .sidebar {
   transition-duration: 0.4s;
-  opacity: 0.9;
 }
 .posts-expand .post-title-link {
   color: #222;
