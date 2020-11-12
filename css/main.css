@@ -1624,9 +1624,10 @@ pre code {
   width: 100%;
 }
 .with-love {
-  color: #ff0000;
+  color: #ffb6c1;
   display: inline-block;
   margin: 0 5px;
+  animation: icon-animate 1.33s ease-in-out infinite;
 }
 @-moz-keyframes icon-animate {
   0%, 100% {
@@ -2725,6 +2726,9 @@ body {
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: cover;
+}
+.footer-inner {
+  color: #000;
 }
 .main-inner {
   background-color: rgba(255,255,255,0);
