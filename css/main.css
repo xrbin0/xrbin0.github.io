@@ -2765,6 +2765,7 @@ ul.breadcrumb li:last-child {
 }
 @media (max-width: 767px) {
   .pagination {
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 }
