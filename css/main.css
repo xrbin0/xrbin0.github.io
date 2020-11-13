@@ -2129,12 +2129,6 @@ pre code {
   flex-direction: column;
   justify-content: center;
 }
-.post-eof {
-  background: #ccc;
-  height: 1px;
-  margin: 80px auto 60px;
-  width: 8%;
-}
 .post-block:last-of-type .post-eof {
   display: none;
 }
