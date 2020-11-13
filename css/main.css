@@ -2124,6 +2124,9 @@ pre code {
   flex-direction: column;
   justify-content: center;
 }
+.post-eof {
+  background: #ccc;
+}
 .post-block:last-of-type .post-eof {
   display: none;
 }
