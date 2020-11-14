@@ -2764,11 +2764,6 @@ ul.breadcrumb li:last-child {
   padding-top: 40px;
 }
 @media (max-width: 767px) {
-  .post-block:first-of-type {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 767px) {
   .pagination {
     margin-top: 10px;
     margin-bottom: 10px;
