@@ -495,6 +495,7 @@ xrbin的减脂记录，欢迎批评指正。
 
 
       
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -597,6 +598,26 @@ xrbin的减脂记录，欢迎批评指正。
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'f2d023d04f90246b6091',
+      clientSecret: '9f5ce5c1b23a14f203b9e04242aaab2ba10ed508',
+      repo        : 'xrbin0.github.io',
+      owner       : 'xrbin',
+      admin       : ['xrbin'],
+      id          : '063e7de63af646782e12639b3e0bbb6b',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
