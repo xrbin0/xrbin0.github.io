@@ -1309,7 +1309,7 @@ pre code {
 .github-corner svg {
   color: #fff;
   fill: #222;
-  position: absolute;
+  position: right;
   right: 0;
   top: 0;
   z-index: 1000;
